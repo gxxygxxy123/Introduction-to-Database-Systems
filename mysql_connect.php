@@ -12,7 +12,7 @@
 	//資料庫管理者帳號
 	$db_user = "chiaan0516021_cs";
 	//資料庫管理者密碼
-	$db_passwd = "cscs";
+	$db_passwd = "****"; //打碼
 	//對資料庫連線
 	$dbConnection = mysqli_connect($db_server,$db_user,$db_passwd);
 	if(!$dbConnection)
